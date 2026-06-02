@@ -1,4 +1,5 @@
 #pragma once
+#include "WaterReservoir.h"
 
 enum class DrinkType
 {
@@ -16,14 +17,10 @@ enum class DrinkProgramStatus
     Count
 };
 
-//forwardDeclaration
-
-class CoffeeMachine;
-
 class DrinkProgram
 {
 public:
-    DrinkProgram(DrinkType type, CoffeeMachine& context); //forward declaration of CoffeeMachine class, to not include header here, only in .cpp
+    DrinkProgram(DrinkType type, WaterReservoir& water);
 
     void showInfo();
     DrinkProgramStatus prepare();
@@ -33,5 +30,5 @@ private:
 
     const float EsspressoVolume = 0.05f;
 
-    CoffeeMachine& m_context; //Aggregation, Drink program doesn't own CoffeeMachine
+    WaterReservoir& m_waterReservoir; //Aggregation, Drink program doesn't own WaterReservoir
 };

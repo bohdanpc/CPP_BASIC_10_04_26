@@ -38,9 +38,6 @@ public:
 
     bool IsBooted() const { return !m_powerOffRequest; }
 
-    void initDefaultDrinks();
-    void addDrinkReceipt(DrinkProgram* program) { m_recipes.push_back(program); }
-
     void showMenu();
     void receiveInput();
     void update();
@@ -58,16 +55,12 @@ private:
     void showLowWaterError();
 
 private:
-    std::vector<DrinkProgram*> m_recipes;
-    DrinkProgram* m_SelectedDrink = nullptr;
-
     WaterReservoir m_waterReservoir;
+
+    DrinkProgram m_recipes[2]{ DrinkProgram{DrinkType::Espresso, m_waterReservoir}, DrinkProgram{DrinkType::Cappuccino, m_waterReservoir} };
     
-    int m_currentChoice = -1;
     CoffeeMachineState m_currentState = CoffeeMachineState::Sleep;
 
+    int m_currentChoice = -1;
     bool m_powerOffRequest = false;
-
-private:
-    friend DrinkProgram;
 };

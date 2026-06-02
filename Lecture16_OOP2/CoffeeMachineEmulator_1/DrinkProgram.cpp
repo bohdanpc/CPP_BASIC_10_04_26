@@ -3,9 +3,9 @@
 #include <chrono>
 #include <thread>
 
-DrinkProgram::DrinkProgram(DrinkType type, CoffeeMachine& context) : 
+DrinkProgram::DrinkProgram(DrinkType type, WaterReservoir& water) : 
     m_drinkType(type), 
-    m_context(context) {}
+    m_waterReservoir(water) {}
 
 void DrinkProgram::showInfo()
 {
@@ -30,15 +30,16 @@ DrinkProgramStatus DrinkProgram::prepare()
     {
         //TODO: method prepareEspresso()
 
-        if (m_context.m_waterReservoir.getVolume() < EsspressoVolume)
+        if (m_waterReservoir.getVolume() < EsspressoVolume)
         {
             return DrinkProgramStatus::LowWater;
         }
 
-        m_context.m_waterReservoir.useWater(EsspressoVolume);
+        m_waterReservoir.useWater(EsspressoVolume);
 
         std::cout << "\n\nGrrr ";
-
+        std::cout << "Using " << EsspressoVolume << "l out of " 
+            << EsspressoVolume + m_waterReservoir.getVolume() << "l of water for preparation\n";
         std::this_thread::sleep_for(std::chrono::seconds(1));
         std::cout << ".";
         std::this_thread::sleep_for(std::chrono::seconds(1));
@@ -60,7 +61,8 @@ DrinkProgramStatus DrinkProgram::prepare()
         std::cout << "..Hanging... ";
         std::this_thread::sleep_for(std::chrono::seconds(3));
 
-        std::cout << "DONE!\n\n";
+        std::cout << "DONE!\n";
+        std::cout << "Enjoy your fresh ESPRESSO!\n\n";
 
         return DrinkProgramStatus::Success;
     }

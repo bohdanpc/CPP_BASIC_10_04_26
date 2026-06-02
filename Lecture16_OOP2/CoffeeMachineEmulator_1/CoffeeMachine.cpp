@@ -1,11 +1,5 @@
 #include "CoffeeMachine.h"
 
-void CoffeeMachine::initDefaultDrinks()
-{
-    m_recipes.push_back(new DrinkProgram(DrinkType::Espresso, *this));
-    m_recipes.push_back(new DrinkProgram(DrinkType::Cappuccino, *this));
-}
-
 void CoffeeMachine::showMenu()
 {
     switch (m_currentState)
@@ -142,10 +136,10 @@ void CoffeeMachine::selectNewMenuFromMain()
 void CoffeeMachine::showListOfDrinks()
 {
     std::cout << std::endl;
-    for (int i = 0; i < m_recipes.size(); i++)
+    for (int i = 0; i < 2; i++)
     {
         std::cout << i + 1 << ". ";
-        m_recipes[i]->showInfo();
+        m_recipes[i].showInfo();
         std::cout << std::endl;
     }
 }
@@ -153,12 +147,8 @@ void CoffeeMachine::showListOfDrinks()
 void CoffeeMachine::selectDrink()
 {
     const int receipeIdx = m_currentChoice - 1;
-    if (receipeIdx >= 0 && receipeIdx < m_recipes.size())
-    {
-        m_SelectedDrink = m_recipes[receipeIdx];
-    }
 
-    if (m_SelectedDrink != nullptr)
+    if (receipeIdx == 1 || receipeIdx == 2)
     {
         m_currentState = CoffeeMachineState::DrinkPreparation;
     }
@@ -176,14 +166,7 @@ void CoffeeMachine::showLowWaterError()
 
 void CoffeeMachine::prepareDrink()
 {
-    //Sanity check. Ideally we shouldn't get this far is a drink wasn't selected correctly
-    if (m_SelectedDrink == nullptr)
-    {
-        m_currentState = CoffeeMachineState::DrinkSelection;
-        return;
-    }
-
-    const DrinkProgramStatus status = m_SelectedDrink->prepare();
+    const DrinkProgramStatus status = m_recipes[m_currentChoice].prepare();
 
     if (status == DrinkProgramStatus::Success)
     {

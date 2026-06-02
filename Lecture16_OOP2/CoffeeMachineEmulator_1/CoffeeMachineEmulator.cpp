@@ -7,8 +7,6 @@ int main()
 {
     CoffeeMachine machine;
     
-    machine.initDefaultDrinks();    //available drinks
-
     while (machine.IsBooted())
     {
         machine.showMenu();
