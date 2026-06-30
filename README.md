@@ -1,4 +1,4 @@
-# CPP GAMEDEV next steps: Literature, courses, web-resources
+# Next steps: Literature, courses, web-resources
 
 ## General Programming
 
