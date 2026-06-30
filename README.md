@@ -21,9 +21,9 @@
  - **Effective C++: 55 Specific Ways to Improve Your Programs and Designs 3rd Edition** [reference](https://booksit.com.ua/20856-effectivec55specificwaystoimproveyourprogramsanddesigns3rdedition3rdedition.htm)
 
  - Effective Modern C++: 42 Specific Ways to Improve Your Use of C++11 and C++14 1st Edition
-[reference](https://prom.ua/p2017075055-effective-modern-specific.html?utm_source=google_pma[…]QKCzOzCQUaCSdYey8cmzVBqBEvO2mO69hDkR0fHjqNBqA4zhy-hBoCSqQQAvD_BwE)
+[reference](https://booksit.com.ua/20952-effectivemodernc42specificwaystoimproveyouruseofc11andc141stedition.htm?gad_source=1&gad_campaignid=21815835568&gbraid=0AAAAADmP0V1dsie0TPF7XbH9QYWEQhyv-&gclid=CjwKCAjw0o3SBhBVEiwAh28-jeESzo8PshLsDSO7RJGMUsSOz3T8l-jbgffEsm0blTkhuoQ_pEVCmxoC9aMQAvD_BwE)
 
- - C++ Concurrency in Action: Practical Multithreading [reference](https://booksit.com.ua/21069-cconcurrencyinactionpracticalmultithreading1stedition.h[…]Db3X0KB-cCO4K7T1GsKbeSK1OXTCibhPMkKH6B1wa9sj_47RoCD0AQAvD_BwE)
+ - C++ Concurrency in Action: Practical Multithreading [reference](https://booksit.com.ua/21069-cconcurrencyinactionpracticalmultithreading1stedition.htm?gad_source=1&gad_campaignid=21815835568&gbraid=0AAAAADmP0V1dsie0TPF7XbH9QYWEQhyv-&gclid=CjwKCAjw0o3SBhBVEiwAh28-jS-Ukc0EVN67v5SkgG0uIX5RYo3984FG0wjiVOPCPrTtine2N7x38RoCXl4QAvD_BwE)
 
  - [Modern C++ BLOG](https://www.modernescpp.com/index.php/table-of-content/)
  
@@ -36,9 +36,9 @@
 
 ## Architecture and OOP Design
 
-- **Clean Architecture: A Craftsman's Guide to Software Structure and Design book** (Чиста Архітектура) [reference](https://nashformat.ua/products/chysta-arhitektura-mystetstvo-rozrobky-programnogo-z[…]jcraBJ7dAuofCP4XEVEbZ31YmV3l3ifPbTb_7MITMVabgCTTRoCnw4QAvD_BwE)
+- **Clean Architecture: A Craftsman's Guide to Software Structure and Design book** (Чиста Архітектура) [reference](https://nashformat.ua/products/chysta-arhitektura-mystetstvo-rozrobky-programnogo-zabezpechennya-916338?gad_source=1&gad_campaignid=17414914932&gbraid=0AAAAADDmYZyaTogwp5-jkRAUWLKKhyqzP&gclid=CjwKCAjw0o3SBhBVEiwAh28-jYimUAdPW6XDmKb-BYyO9ZCGNCjBS4CiJazFA1Lkl3qIXK70vU9u8BoCjzIQAvD_BwE)
 
-- Head First. Патерни проєктування [reference](https://booksit.com.ua/21582-headfirstpaterniproktuvannya.htm?gad_source=1&gclid=Cjw[…]a0pFaR_bEAdU6LwoyRFln8yE-smwYgAp9kPz48TnkAQYVRiRoCV0sQAvD_BwE)
+- Head First. Патерни проєктування [reference](https://nashformat.ua/products/head-first.-paterny-proektuvannya-921029?gad_source=1&gad_campaignid=17414914932&gbraid=0AAAAADDmYZyaTogwp5-jkRAUWLKKhyqzP&gclid=CjwKCAjw0o3SBhBVEiwAh28-jfIzSkf8FJDRVknCMyfb-7ctI1EKNX2vPQanqUthWJEDjd1MzQM_rxoCnmkQAvD_BwE)
 
 - [Рефакторинг Гуру: принципи SOLID, патерни проектування, рефакторинг](https://refactoring.guru/uk/design-patterns)
 
@@ -47,7 +47,7 @@
 
 ## Agile (managing projects, teamwork, collaboration)
 
-- **Head First Agile: A Brain-Friendly Guide to Agile Principles, Ideas, and Real-World Practices** [reference](https://book-tower.com.ua/kompyuternaya-literatura-uk/head-first-agile-a-brain-friendly-guide-to-agile-principles-ideas-and-real-world-practices-stellman-a-uk/?gclid=CjwKCAjwktO_BhBrEiwAV70jXp3tfA0fs8K_Uv_PodOoRU1zkiNs-hCpixe_YWMUQQeYXwj-lq2zEBoCS8YQAvD_BwE)
+- **Head First Agile: A Brain-Friendly Guide to Agile Principles, Ideas, and Real-World Practices** [reference](https://www.yakaboo.ua/head-first-agile-a-brain-friendly-guide-to-agile-principles-ideas-and-real-world-practices.html?srsltid=AfmBOooJTm6LVKHLFB_d8QS565ejCjwGDchTt8ylmdAZ-cZ7E7--cked)
 
 - Scrum. Навчись робити вдвічі більше за менший час [reference](https://booksit.com.ua/27394-scrumnavchisrobitivdvchblshezamenshiychas.htm?gad_sourc[…]_YhhwE-akcWRlARxi9bd14RAphbOdqE3xQmhsOmIHIFFAEuxoCxU0QAvD_BwE)
 
