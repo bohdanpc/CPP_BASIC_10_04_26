@@ -49,14 +49,14 @@
 
 - **Head First Agile: A Brain-Friendly Guide to Agile Principles, Ideas, and Real-World Practices** [reference](https://www.yakaboo.ua/head-first-agile-a-brain-friendly-guide-to-agile-principles-ideas-and-real-world-practices.html?srsltid=AfmBOooJTm6LVKHLFB_d8QS565ejCjwGDchTt8ylmdAZ-cZ7E7--cked)
 
-- Scrum. Навчись робити вдвічі більше за менший час [reference](https://booksit.com.ua/27394-scrumnavchisrobitivdvchblshezamenshiychas.htm?gad_sourc[…]_YhhwE-akcWRlARxi9bd14RAphbOdqE3xQmhsOmIHIFFAEuxoCxU0QAvD_BwE)
+- Scrum. Навчись робити вдвічі більше за менший час [reference](https://nashformat.ua/products/scrum.-navchys-robyty-vdvichi-bilshe-za-menshyj-chas-704122?gad_source=1&gad_campaignid=17414914932&gbraid=0AAAAADDmYZyaTogwp5-jkRAUWLKKhyqzP&gclid=CjwKCAjw0o3SBhBVEiwAh28-jaQa_fPbEbUP4_gW2qaw3hGwGq2dYFQvjJCVtxWe_qUOx44v4alsshoC5rQQAvD_BwE)
 
 ![Agile List](resources/agile.png)
  
  
 ## Gamedev programming
 
- - **Game Engine Architecture book** [reference](https://booksit.com.ua/20909-gameenginearchitecturethirdedition.htm?gad_source=1&gbraid=0AAAAADmP0V1Oje8uaPhnWlx47tRr2nkru&gclid=CjwKCAjwktO_BhBrEiwAV70jXnhC8HMWK7gIwp3YYGBynBavpupItR6FktAdS_4V_yHJuaWc1IJmdxoCoQMQAvD_BwE)
+ - **Game Engine Architecture book** [reference](https://book-center.com.ua/kompyuterna-literatura/game-engine-architecture-3rd-edition-jason-gregory?gclid=CjwKCAjw0o3SBhBVEiwAh28-jfNYQ-mrFH5NlYfn9CuSC2qUfpzR07_5jKeN7XRVcjGWfvfY0QJiWRoCc3IQAvD_BwE)
 	- *Можна читати як повноцінний посібник повністю, або окремі відокремлені частини за потреби як референс*
 
  - Foundations of Game Engine Development, Volume 1: Mathematics 1st Edition [reference](https://booksit.com.ua/20807-foundationsofgameenginedevelopmentvolume1mathematics1st[…]SV0tjunEJX2fHhNXINxUToSbQQNfLRuvd-vPsFfYCw8lb2cBoC60wQAvD_BwE)
