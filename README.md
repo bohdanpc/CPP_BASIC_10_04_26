@@ -90,4 +90,4 @@
 ### Others
 - *Please let me know, if there're specific topics *you* want me to guide you through here* :)
 
-![Meme](resources/last_meme.jpg)
+![Meme](resources/last_meme.jpeg)
